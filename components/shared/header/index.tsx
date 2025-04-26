@@ -3,6 +3,7 @@ import { APP_NAME } from "@/lib/constants";
 import { LogIn, ShoppingBag, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "./theme-toggle";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         <span className="text-2xl font-bold">{APP_NAME}</span>
       </div>
       <div>
+        <ThemeToggle />
         <Button asChild variant="ghost">
           <Link href="/cart">
             <ShoppingCart /> Cart

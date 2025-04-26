@@ -13,3 +13,4 @@ Create Project
 ### Packages
 
 1. lucide-react => for icons
+2. next-themes => for dark themes
