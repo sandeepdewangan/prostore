@@ -9,3 +9,7 @@
 
 Create Project
 `npx  create-next-app@latest`
+
+### Packages
+
+1. lucide-react => for icons
