@@ -4,10 +4,12 @@ export const metadata: Metadata = {
   title: "Home",
 };
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div>
       <h1>Prostore</h1>
     </div>
   );
-}
+};
+
+export default HomePage;
