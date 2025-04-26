@@ -4,6 +4,7 @@ import { LogIn, ShoppingBag, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import ThemeToggle from "./theme-toggle";
+import RightSheet from "./right-sheet";
 
 const Header = () => {
   return (
@@ -21,9 +22,10 @@ const Header = () => {
         </Button>
         <Button asChild variant="ghost">
           <Link href="/signin">
-            <LogIn /> Signin
+            <LogIn /> Sign-in
           </Link>
         </Button>
+        <RightSheet />
       </div>
     </div>
   );
