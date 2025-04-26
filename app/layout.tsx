@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import {} from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+// font config
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
