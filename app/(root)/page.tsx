@@ -1,3 +1,5 @@
+import Products from "@/components/product/products";
+import sampleData from "@/db/sample-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
 const HomePage = () => {
   return (
     <div>
-      <h1>Prostore</h1>
+      <Products data={sampleData.products} title="New Arrivals" />
     </div>
   );
 };
