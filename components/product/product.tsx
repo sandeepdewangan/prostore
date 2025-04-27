@@ -2,8 +2,9 @@ import React from "react";
 import { Card, CardContent, CardHeader } from "../ui/card";
 import Link from "next/link";
 import Image from "next/image";
+import { ProductModel } from "@/types";
 
-const Product = ({ product }: { product: any }) => {
+const Product = ({ product }: { product: ProductModel }) => {
   return (
     <Card className="w-full max-w-lg">
       <CardHeader className="flex justify-center">

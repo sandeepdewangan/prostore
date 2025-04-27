@@ -1,5 +1,4 @@
 import Products from "@/components/product/products";
-import sampleData from "@/db/sample-data";
 import { getLatestProducts } from "@/lib/actions/product.actions";
 import { Metadata } from "next";
 
