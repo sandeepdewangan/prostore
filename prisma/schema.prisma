@@ -6,7 +6,6 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../lib/generated/prisma"
 }
 
 datasource db {
@@ -17,7 +16,8 @@ datasource db {
 // My Models
 
 model Product {
-  name        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String
   slug        String   @unique(map: "product_slug_idx")
   category    String
   description String

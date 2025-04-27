@@ -39,3 +39,9 @@ STEP 03: Migrate
 STEP 04: Look into DB
 
 `npx prisma studio`
+
+### DB Seeding
+
+Run to seed the database
+
+`npx tsx ./db/seed.ts`
