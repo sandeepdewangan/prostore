@@ -45,3 +45,9 @@ STEP 04: Look into DB
 Run to seed the database
 
 `npx tsx ./db/seed.ts`
+
+### Serverless Environment Config
+
+Install packages:
+`npm i @neondatabase/serverless @prisma/adapter-neon ws`
+`npm i -D @types/ws bufferutil`
