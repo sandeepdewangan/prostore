@@ -51,3 +51,7 @@ Run to seed the database
 Install packages:
 `npm i @neondatabase/serverless @prisma/adapter-neon ws`
 `npm i -D @types/ws bufferutil`
+
+### Password Encryption
+
+`npm i bcrypt-ts-edge`
