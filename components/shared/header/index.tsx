@@ -8,7 +8,7 @@ import RightSheet from "./right-sheet";
 
 const Header = () => {
   return (
-    <div className="flex justify-between py-2 px-2 border-b">
+    <div className="flex justify-between py-2 px-25 border-b">
       <div className="flex gap-x-1">
         <ShoppingBag size={28} color="orange" />
         <span className="text-2xl font-bold">{APP_NAME}</span>
